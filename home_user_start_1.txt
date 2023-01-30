@@ -1,0 +1,4 @@
+mkdir -p /home/user/start
+mkdir -p /opt/task
+cp /home/user/start/1.txt /opt/task/start.txt
+ls -1 | tail -4 >> /opt/task/start.txt
